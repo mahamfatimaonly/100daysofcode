@@ -1,0 +1,23 @@
+body {
+    background-color: lightblue;
+  }
+  
+.Head h1 {
+    color: navy;
+    margin-left: 20px;
+    border-bottom:2px solid black;
+    margin: 0 auto;
+    max-width: 50%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.formsection{
+   
+    width: 50%;
+    margin: 0 auto;
+
+}
+.formsection form, p{
+    text-align: center;
+}
