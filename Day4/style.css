@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    border:0px;
+    padding: 0%;
+}
+.BG{
+    background-image: url("../Day4/img/smoke.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("../Day4/img/smoke.png");
+    position: center;
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: rgb(68,71,72);
+
+}
+i{
+    font-size: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 8%;
+    left:10%;
+}
+.time-design{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 30%;
+    align-items: center;
+    min-height: 100vh; 
+}
+#time{
+    display: flex;
+    gap: 40px;
+}
+#time .circle{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+}
