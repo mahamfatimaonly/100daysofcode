@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    border:0px;
+    padding: 0%;
+    color: grey;
+    font-family: Georgia, serif;
+    font-family: "Sofia", sans-serif;
+}
+
+i{
+    font-size: 40px;
+    cursor: pointer;
+    position: absolute;
+    top: 1%;
+    left:6%;
+    color: grey;
+}
+
+  /*  --------------------- home ---------------------------------- */
+  .header {
+    height: 102vh;
+    background-color: #1B1C19;
+  }
+  .navbar{
+    background-color: whitesmoke;
+   
+  }
+  .box {
+    border: 3px;
+    font-size: 20px;
+    text-decoration-color: rgb(124, 143, 160);
+    color: rgb(209, 185, 209);
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .btn {
+    border-radius: 10px;
+    padding: 3px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    background: rgba(255, 235, 205, 0.164);
+    margin-top: 2px;
+    color: rgb(209, 185, 209);
+  }
+  ui li {
+    list-style: none;
+    
+  }
+ 
+  .navbar::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  .navbar .logo {
+    float: left;
+  }
+  .navbar .nav-items {
+    float: right;
+    padding: 1rem;
+    width: 60%;
+    
+    
+  }
+  
+  .navbar .nav-item {
+    display: inline-block;
+    padding: 1rem;
+   
+    
+    
+  }
+  .line{
+    border-right: 1px solid grey;
+
+  }
+  p li {
+    letter-spacing: 0.15rem;
+  }
+  .container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  a {
+    text-decoration: none;
+  }
+  .navbag {
+    background-color: antiquewhite;
+  }
+  
+.box1 {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 50px;
+
+
+  }
+  .box1::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
+  .q1 {
+    float: left;
+    background-color: white;
+    width: 31%;
+    margin-right: 3%;
+    box-shadow: grey;
+    border: 1.5px solid white;
+  }
+  .q2 {
+    float: left;
+    width: 31%;
+    margin-right: 3%;
+    background-color: white;
+    box-shadow: gray;
+    border: 1.5px solid white;
+  }
+  .q3 {
+    float: left;
+    width: 31%;
+    
+    box-shadow: gray;
+    border: 1.5px solid white;
+    background-color: white;
+  }
+  .dot {
+    height: 50px;
+    width: 50px;
+    background-color: rgba(128, 128, 128, 0.733);
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: -40px;
+    margin-left: 130px;;
+  }
+.box1 h1{
+    text-align: center;
+    display: block;
+    margin: 5px;
+}
+.box1 p{
+    padding: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
