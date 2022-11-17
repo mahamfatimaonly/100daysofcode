@@ -1,0 +1,118 @@
+body{
+    background-color: #919191de;
+}
+.box{
+    margin: 0 auto;
+    border: 2px solid black;
+    width: 650px;
+    height: 350px;
+    margin-top: 12%;
+    background-color: white;
+    box-shadow: black;
+}
+.box h1{
+    text-align: center;
+    margin-top: 12%;
+}
+.box h2{
+    font-size: medium;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    margin-top: 30px;
+}
+.box .btn{
+    padding: 10px;
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: black;
+    border-radius: 10px;
+    color: antiquewhite;
+}
+.box .link{
+    margin: 0 auto;
+    padding-left: 45%;
+    text-decoration: none;
+    color: #919191;
+    
+
+}
+
+.circle{
+    height: 50px;
+    width: 50px;
+    background-color: #699BF7;
+    border-radius: 50%;
+    position: absolute;
+    top: 42%;
+    left: 26%;
+    animation-name: circle;
+    animation-duration: 1s;
+    
+}
+.triangle-left {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 50px solid #C6B9FF;
+	border-bottom: 25px solid transparent;
+    position: absolute;
+    top: 37%;
+    left: 30%;
+    animation-name: triangle-left;
+    animation-duration: 0.8s;
+    
+}
+.square {
+    height: 40px;
+    width: 40px;
+    background-color: #FFC700;
+    position: absolute;
+    top: 33%;
+    left: 36%;
+    animation-name: ssquare;
+    animation-duration: 0.6s;
+  }
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #FF8577;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    animation-name: triangle-up;
+    animation-duration: 0.4s;
+}
+@keyframes circle{
+    0%   {left:26%; top:42%;}
+    25%  { left:37%; top:30%;}
+    50% {left:40%; top:25%}
+    75% {z-index:-1; left:25%; top:42%;}
+    100% {left:26%; top:42%;}
+}
+@keyframes triangle-left{
+    0%   {left:36%; top:33%;}
+    25%  { left:40%; top:25%}
+    50% {z-index:-1; left:40%; top:25%; }
+    75% {left:26%; top:42%;  }
+    100% {left:30%; top:37%;}
+}
+@keyframes ssquare{
+    0%   {left:40%; top:25%;}
+    25%  {z-index:-1; left:40%; top:25%; }
+    50% {left:26%; top:42%}
+    75% {left:30%; top:37%;}
+    100% {left:36%; top:33%;}
+}
+@keyframes triangle-up{
+    0%   {z-index:-1; left:40%; top:25%;}
+    25%  { left:26%; top:42%;}
+    50% {left:30%; top:37%}
+    75% {left:36%; top:33%;   }
+    100% {left:40%; top:25%;}
+}
