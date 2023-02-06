@@ -80,8 +80,7 @@ for(let day = 1; day <= 31; day++) {
     else
     weekdays++; 
     }
-console.log(" you've to work for "+ weekdays +" days to earn"); */
-
+console.log(" you've to work for "+ weekdays +" days to earn"); 
 const number = parseInt(prompt('Enter an integer: '));
 for(let i = 1; i <= 10; i++) {
     const result = i * number;
